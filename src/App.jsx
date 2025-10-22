@@ -67,7 +67,7 @@ const handleSubmit = (e) => {
     phone: "+91-6305659109",
     email: "gunanaga944@gmail.com",
     summary:
-      "Full Stack Web Developer with 3.5 years experience building scalable apps using React, Node, Express, MongoDB and MySQL. Experienced in trade finance domain at TCS. Skilled in UI, API integration and performance optimization.",
+      "Full Stack Web Developer with 3.7 years experience building scalable apps using React, Node, Express, MongoDB and MySQL. Experienced in trade finance domain at TCS. Skilled in UI, API integration and performance optimization.",
     experience: [
       {
         company: "Tata Consultancy Services",
@@ -75,8 +75,8 @@ const handleSubmit = (e) => {
         period: "Feb 2022 - Present",
         bullets: [
           "Developer at SBI Trade Finance — worked on Eximbills Enterprise (trade finance automation).",
-          "Frontend: HTML5, CSS3, JavaScript, React; Backend: Node.js, Express; DB: MySQL & MongoDB.",
-          "Followed Agile methodology, collaborated with backend developers and stakeholders."
+          "Frontend: HTML5, CSS3, JavaScript, React", "Backend: Node.js, Express; DB: MySQL & MongoDB.",
+          "Followed Agile methodology, collaborated with stakeholders."
         ]
       }
     ],
@@ -141,6 +141,7 @@ const handleSubmit = (e) => {
               <a href={resume.linkedin} target="_blank" rel="noreferrer">
                 LinkedIn
               </a>
+              <a href="/Guna_FullStack_Mern_Developer_3.5Y.pdf" download className="resume-btn">Resume</a>
               <a href="#contact" className="hire-btn" onClick={(e) => {
                 e.preventDefault();
                 document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
@@ -156,7 +157,7 @@ const handleSubmit = (e) => {
               <div className="avatar-placeholder">GN</div>
             )}
             <p className="hero-image-text">
-              Full Stack MERN Developer — 3.5 years experience
+              Full Stack MERN Developer — 3.7 years experience
             </p>
           </div>
         </section>

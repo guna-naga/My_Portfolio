@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://guna-naga.github.io/My_Portfolio",
+  "homepage": "https://guna-naga.github.io/my-portfolio-vite",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
